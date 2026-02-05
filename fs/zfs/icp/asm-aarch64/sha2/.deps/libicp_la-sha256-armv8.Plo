@@ -1,0 +1,5 @@
+module/icp/asm-aarch64/sha2/libicp_la-sha256-armv8.lo: \
+ module/icp/asm-aarch64/sha2/sha256-armv8.S /usr/include/stdc-predef.h \
+ zfs_config.h
+/usr/include/stdc-predef.h:
+zfs_config.h:

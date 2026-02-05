@@ -1,0 +1,5 @@
+module/icp/algs/aes/libicp_la-aes_impl_x86-64.lo: \
+ module/icp/algs/aes/aes_impl_x86-64.c /usr/include/stdc-predef.h \
+ zfs_config.h
+/usr/include/stdc-predef.h:
+zfs_config.h:

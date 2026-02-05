@@ -1,0 +1,5 @@
+module/icp/algs/modes/libicp_la-gcm_pclmulqdq.lo: \
+ module/icp/algs/modes/gcm_pclmulqdq.c /usr/include/stdc-predef.h \
+ zfs_config.h
+/usr/include/stdc-predef.h:
+zfs_config.h:

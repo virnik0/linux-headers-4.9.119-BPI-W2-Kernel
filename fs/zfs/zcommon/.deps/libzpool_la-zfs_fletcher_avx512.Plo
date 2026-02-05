@@ -1,0 +1,5 @@
+module/zcommon/libzpool_la-zfs_fletcher_avx512.lo: \
+ module/zcommon/zfs_fletcher_avx512.c /usr/include/stdc-predef.h \
+ zfs_config.h
+/usr/include/stdc-predef.h:
+zfs_config.h:
