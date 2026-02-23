@@ -552,9 +552,9 @@ int send_rpc_command(int opt, uint32_t command, uint32_t param1,
 	//if (!sleep_on_timeout(&rpc_wq[opt], TIMEOUT)) {
 	if (!wait_event_timeout(rpc_wq[opt], complete_condition[opt], TIMEOUT)) {
 		pr_err("kernel rpc timeout -> disable %s...\n", rpc_kthread[opt]->comm);
-		WARN(1, " #@# sendbuf: size%lu cmd:%x param1:%x param2:%x\n",
-				sizeof(sendbuf), command, param1, param2);
-		dump_kern_rpc();
+//		WARN(1, " #@# sendbuf: size%lu cmd:%x param1:%x param2:%x\n",
+//				sizeof(sendbuf), command, param1, param2);
+//		dump_kern_rpc();
 
 		kthread_stop(rpc_kthread[opt]);
 		rpc_kthread[opt] = 0;
